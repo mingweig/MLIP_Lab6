@@ -20,7 +20,7 @@ pipeline {
 
                 
                 # TODO Complete the command to run pytest
-                sudo /opt/miniconda3/bin/conda run -n lab6-mingweig pytest
+                /opt/miniconda3/bin/conda run -n lab6-mingweig pytest
                 # echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
                 '''
