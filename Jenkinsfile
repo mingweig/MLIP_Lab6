@@ -18,11 +18,11 @@ pipeline {
                 # TODO fill out the path to conda here
                 # sudo /opt/miniconda3/bin/conda init
 
-                conda activate mlip
+                
                 # TODO Complete the command to run pytest
-                # sudo /opt/miniconda3/bin/conda run -n mlip pytest
-                echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                # sudo /opt/miniconda3/bin/conda run -n lab6-mingweig pytest
+                # echo 'pytest not runned'
+                # exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
